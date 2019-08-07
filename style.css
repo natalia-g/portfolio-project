@@ -1,0 +1,231 @@
+body {
+    font-family: 'Source Sans Pro', Helvetica, sans-serif;
+}
+
+.buttons {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.button {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+    font-size: 12px;
+    line-height: 21px;
+    width: 150px;
+    height: 30px;
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    background-image: linear-gradient(270deg, #FFC53D 14%, #FF9A3D 68%);
+    padding: 4px;
+
+}
+
+.button:hover {
+    background: transparent;
+    color: #FF9A3D;
+    border-style: solid;
+    border-color: #FF9A3D
+}
+
+.header {
+    background: url(/pictures/louis-tricot-_fDxl6pcKKQ-unsplash.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:400px;
+    text-align: center;
+    padding: 150px;
+    
+}
+
+#welcome {
+    color:#FF9A3D;
+}
+
+#developer {
+    color: #333333;
+}
+
+.find {
+    position: relative;
+    margin-top: 40px;
+}
+
+
+.find-out-more {
+    position: relative;
+    height: 50px;
+    top: 10px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.section-title {
+    position: relative;
+    width: 202px;
+    height: 29px;
+    left: 70px;
+    top: 0px;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 37px;
+    letter-spacing: 0.02em;
+
+    color: #222222;
+}
+
+#about-me-box {
+    margin: 100px auto;
+    width: 1000px;
+    height: 280px;
+    background: #FFFFFF;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.05);
+}
+
+#about-me-details {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 110%;
+    letter-spacing: 0.02rem;
+    left: 20px;
+    top: 20px;
+}
+
+#small-image {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    top: 20px;
+}
+
+#profile-image {
+    border-radius: 50%;
+}
+
+#about-me-text {
+    right: 40px;
+    top: 20px;
+}
+
+#skills-box {
+    margin:  100px auto;
+    width: 1000px;
+    height: 280px;
+    background: #FFFFFF;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.05);
+}
+
+#skill-1 {
+    text-align: center;
+}
+
+#skill-2 {
+    text-align: center;
+}
+
+#skill-3 {
+    text-align: center;
+}
+
+.gallery {
+    left: 90px;
+    margin-bottom: 130px;
+    margin-top: 30px;
+    height: 440px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+
+#image {
+    height: 220px;
+    width: 100%;
+}
+
+#contact {
+    margin: 50px auto;
+    margin-bottom: 150px;
+    height: 450px;
+    
+}
+
+#contact-us {
+    background-color: #FF9A3D;
+    left: 120px;
+    padding: 50px 125px 10px 30px;
+    color: white;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.05);
+}
+
+#send-message {
+    background-color: whitesmoke;
+    position: relative;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+#message {
+    position: absolute;
+    left: 70px;
+    top: 20px;
+}
+
+#form-name {
+    width: 400px;
+}
+
+#form-e-mail {
+    width: 400px;
+}
+
+#form-topic {
+    width: 400px;
+}
+
+
+.smaller-text {
+    position: relative;
+    font-size: 14px;
+    margin-top: 100px;
+}
+
+.larger-text {
+    font-size: 26px;
+    font-weight: 600;
+}
+.describe {
+    font-size: 18px;
+}
+
+.orange {
+    color:#FF9A3D;
+    font-weight: 700;
+}
+
+#send {
+    border-color: #FF9A3D;
+}
+
+#section-contact {
+    left: 150px;
+}
+
